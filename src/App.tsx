@@ -1,7 +1,7 @@
 import { Link, Route, Routes } from 'react-router-dom'
 import './App.css'
 import Compound from './compound/Compound'
-import HOC from './HOC/HOC'
+import HOCs from './HOC/HOCs'
 
 function App() {
 
@@ -31,7 +31,7 @@ function App() {
         <Routes>
           <Route path="/compound" element={<Compound />} />
           {/* <Route path="/render-props" element={<RenderProps />} /> */}
-          <Route path="/hoc" element={<HOC />} />
+          <Route path="/hoc" element={<HOCs />} />
         </Routes>
       </div>
     </div>
